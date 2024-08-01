@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MyEcommerceApp",
-    "slug": "MyEcommerceApp",
+    "name": "Shopzee",
+    "slug": "Shopzee",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shreedhar7.MyEcommerceApp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4abb2b92-571f-4f8f-8c1e-d627db1e73c8"
+      }
     }
   }
 }
